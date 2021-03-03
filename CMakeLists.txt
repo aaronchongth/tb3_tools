@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.5.0)
 
 project(tb3_tools)
 
+find_package(catkin)
+
 catkin_package()
 
 install(
